@@ -379,20 +379,15 @@
 
 .icon-footer {
     display: flex;
-    flex-direction: row;
-    height: 70px;
-    justify-content: space-around;
     align-items: center;
+    flex: 1 1 0;
 }
 
 .info {
     display: flex;
-    flex-direction: row;
-    height: 70px;
-    justify-content: space-around;
     font-family: sans-serif;
     color: #D5D5D7;
-    margin-top: -50px;
+    flex: 1 1 0;
 }
 
 .social-media {
@@ -507,6 +502,11 @@
         font-weight: normal;
         padding: 16px 31px;
     }
+}
+
+.info-item {
+    flex: 1 1 0;
+    text-align: center;
 }
 
 @media only screen and (max-width: 500px) {
