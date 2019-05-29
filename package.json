@@ -1,0 +1,22 @@
+{
+    "name": "farbara",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IvanaaVasic/farbara.git"
+    },
+    "author": "Ivana Vasic",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/IvanaaVasic/farbara/issues"
+    },
+    "homepage": "https://github.com/IvanaaVasic/farbara/",
+    "scripts": {
+        "deploy": "gh-pages -d ."
+    },
+    "dependencies": {
+        "gh-pages": "^2.0.1"
+    }
+}
