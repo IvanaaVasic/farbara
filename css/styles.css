@@ -576,8 +576,7 @@
     }
     .copywrite {
         position: relative;
-        right: 100px;
-        top: 100px;
+        text-align: center;
     }
 }
 
