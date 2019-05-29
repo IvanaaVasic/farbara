@@ -624,6 +624,14 @@
     .linija {
         width: 300px;
     }
+    .text-main-2 p {
+        flex-direction: column;
+        padding: 50px 0px;
+    }
+    .text-main p {
+        flex-direction: column;
+        padding: 50px 0px;
+    }
 }
 
 @media only screen and (min-width: 803px) and (max-width: 901px) {
@@ -639,7 +647,7 @@
     }
 }
 
-@media only screen and (min-width: 701px) and (max-width: 900px) {
+@media only screen and (min-width: 700px) and (max-width: 900px) {
     .ikona {
         width: 40px;
         height: 40px;
