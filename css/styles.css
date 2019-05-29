@@ -453,7 +453,7 @@
         flex-direction: column;
         justify-content: space-between;
         flex-wrap: wrap;
-        padding: 70px 30px 80px;
+        padding: 70px 30px 110px;
     }
     .text-main p {
         align-content: space-between;
@@ -470,7 +470,7 @@
         flex-direction: column;
         justify-content: space-between;
         flex-wrap: wrap;
-        padding: 70px 30px 80px;
+        padding: 70px 30px 110px;
     }
     .opis {
         width: 300px;
