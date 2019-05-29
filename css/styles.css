@@ -639,7 +639,7 @@
     }
 }
 
-@media only screen and (min-width: 702px) and (max-width: 900px) {
+@media only screen and (min-width: 701px) and (max-width: 900px) {
     .ikona {
         width: 40px;
         height: 40px;
