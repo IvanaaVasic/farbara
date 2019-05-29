@@ -525,6 +525,7 @@
         position: relative;
         left: 50px;
         top: 30px;
+        width: 100px;
     }
     .info {
         display: flex;
