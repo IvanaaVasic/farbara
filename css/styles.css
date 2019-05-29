@@ -527,7 +527,7 @@
         align-items: flex-start;
         position: relative;
         left: 50px;
-        top: 63px;
+        top: 43px;
         width: 50px;
     }
     .info {
@@ -540,7 +540,7 @@
         align-items: center;
         justify-content: left;
         position: relative;
-        bottom: 60;
+        bottom: 80;
         left: 100px;
         width: 200px;
     }
