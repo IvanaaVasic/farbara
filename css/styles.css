@@ -602,11 +602,11 @@
     }
     .i-1 {
         position: relative;
-        bottom: 80px;
+        bottom: 60px;
     }
     .i-2 {
         position: relative;
-        top: 80px;
+        top: 60px;
     }
     .opis {
         width: 350px;
@@ -667,7 +667,7 @@
         flex-direction: column;
         justify-content: space-between;
         flex-wrap: wrap;
-        padding: 70px 30px 80px;
+        padding: 70px 30px 110px;
     }
     .text-main p {
         align-content: space-between;
@@ -675,7 +675,7 @@
         width: 250px;
         font-size: 14px;
         flex-direction: column;
-        padding: 60px 0px;
+        padding: 50px 0px;
         font-family: sans-serif;
         flex-wrap: wrap;
     }
@@ -684,7 +684,7 @@
         flex-direction: column;
         justify-content: space-between;
         flex-wrap: wrap;
-        padding: 70px 30px 80px;
+        padding: 70px 30px 110px;
     }
     .feature-3,
     .feature-4 {
