@@ -1,0 +1,93 @@
+
+<!-- saved from url=(0044)https://youthful-jackson-77b6fa.netlify.com/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Farbara Troter Srem</title>
+    <link rel="stylesheet" type="text/css" href="./Farbara Troter Srem1_files/styles.css">
+    <link rel="stylesheet" type="text/css" href="./Farbara Troter Srem1_files/main-content.css">
+    <link rel="stylesheet" type="text/css" href="./Farbara Troter Srem1_files/header.css">
+</head>
+
+<body cz-shortcut-listen="true">
+
+    <div class="header">
+        <div class="bottom">
+            <div class="shell">
+                <div class="logo">
+                    <img class="logoo" src="./Farbara Troter Srem1_files/cetka.png">
+                </div>
+            </div>
+
+            <div class="menu-bar">
+                <div class="menu">
+
+                    <div class="home"><a href="https://youthful-jackson-77b6fa.netlify.com/">Home</a></div>
+                    <div class="home"><a href="https://youthful-jackson-77b6fa.netlify.com/#galery">Galerija</a></div>
+                    <div class="home" id="proizvod"><a href="https://youthful-jackson-77b6fa.netlify.com/">Proizvodi</a></div>
+                    <div class="dugme"><a href="https://youthful-jackson-77b6fa.netlify.com/contact.html" class="myButton">Kontaktirajte nas</a></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="img-holder">
+            <img src="./Farbara Troter Srem1_files/painter.jpg" class="slika" alt="image description">
+            <h1>FARBARA TROTER SREM</h1>
+            <a href="https://youthful-jackson-77b6fa.netlify.com/#" class="vise">VISE O NAMA</a>
+        </div>
+        <div class="layer">
+            <div class="o-nama">
+                <h2>O NAMA</h2>
+                <div class="opis">
+                    Sve vrste materijala, alata i pratećeg programa za spoljašnje i unutrašnje završne radove. Kvalitetni i provereni proizvodi renomiranih proizvođača po pristupačnim cenama. Boje, lakovi, disperzije, kompjutersko toniranje i miksovanje glet mase, fug mase,
+                    alu lajsne, stiropor lajsne i ploče, lepkovi, stiropor i stirodur, fasadni materijali, izolacije, auto gitovi i zaštita, alati, prateći program... Poručivanje telefonom ili mail-om i dostava na adresu za veće porudzbine.
+                </div>
+            </div>
+            <hr class="linija">
+        </div>
+        <div class="layer-2">
+            <div>
+                <h3 id="galery">GALERIJA</h3>
+            </div>
+            <div class="galery-holder">
+                <img src="./Farbara Troter Srem1_files/slika1.jpg" class="image">
+                <img src="./Farbara Troter Srem1_files/slika.jpg" class="image">
+                <img src="./Farbara Troter Srem1_files/slika6.jpg" class="image">
+
+            </div>
+            <div class="galery-holder">
+                <img src="./Farbara Troter Srem1_files/slika7.jpg" class="image">
+                <img src="./Farbara Troter Srem1_files/slika2.jpg" class="image">
+                <img src="./Farbara Troter Srem1_files/slika4.jpg" class="image">
+            </div>
+
+        </div>
+        <div class="layer-3">
+            <img src="./Farbara Troter Srem1_files/farba.png" class="image-6">
+            <h4 class="podnaslov">PROVERENI BRENDOVI<br> I ŠIROK ASORTIMAN PROIZVODA</h4>
+            <a href="https://youthful-jackson-77b6fa.netlify.com/#" class="zuto-dugme">NESTO</a>
+        </div>
+        <div class="layer-4">
+            <div class="icon">
+                <div><img class="icon-image" src="./Farbara Troter Srem1_files/pins.png"> </div>
+                <div><img class="icon-image" src="./Farbara Troter Srem1_files/mail.png"></div>
+                <div><img class="icon-image" src="./Farbara Troter Srem1_files/phone.png"></div>
+            </div>
+            <div class="info">
+                <div class="adress">Ugrinovačka 8, Dobanovci 11272</div>
+                <div class="mail">trotersrem@gmail.com</div>
+                <div class="phone">061 5689798</div>
+            </div>
+            <div class="social-media">
+                <div><img class="facebook" src="./Farbara Troter Srem1_files/facebook.png"></div>
+                <div><img class="instagram" src="./Farbara Troter Srem1_files/instagram.png"></div>
+            </div>
+            <div class="copywrite">Copyright © Ivana Vasic</div>
+
+        </div>
+    </div>
+
+
+
+</body></html>
