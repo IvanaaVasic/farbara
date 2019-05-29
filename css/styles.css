@@ -576,8 +576,7 @@
         height: 22px;
     }
     .copywrite {
-        position: relative;
-        bottom: 15px;
+        display: none;
     }
 }
 
