@@ -138,6 +138,7 @@
 }
 
 .main {
+    position: relative;
     background-color: #B2D6FF;
     height: auto;
     justify-content: inherit;
@@ -719,6 +720,7 @@
         margin: 0 auto;
     }
     .main {
+        position: relative;
         height: auto;
     }
     .illustration {
