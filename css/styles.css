@@ -273,7 +273,7 @@
     text-align: justify;
     width: 300px;
     flex-direction: column;
-    padding: 60px 30px;
+    padding: 50px 30px;
     font-family: sans-serif;
     flex-wrap: wrap;
 }
@@ -444,7 +444,7 @@
         width: 230px;
         font-size: 14px;
         flex-direction: column;
-        padding: 60px 0px;
+        padding: 50px 0px;
         font-family: sans-serif;
         flex-wrap: wrap;
     }
@@ -461,7 +461,7 @@
         width: 230px;
         font-size: 14px;
         flex-direction: column;
-        padding: 60px 0px;
+        padding: 50px 0px;
         font-family: sans-serif;
         flex-wrap: wrap;
     }
