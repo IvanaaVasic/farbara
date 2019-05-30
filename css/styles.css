@@ -415,7 +415,6 @@
 }
 
 .copywrite {
-    text-align: center;
     font-family: sans-serif;
     color: #D5D5D7;
     display: flex;
@@ -423,6 +422,8 @@
     background-color: #525252;
     width: 100%;
     justify-content: center;
+    height: 30px;
+    align-content: center;
 }
 
 
