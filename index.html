@@ -75,12 +75,12 @@
         </div>
         <div class="section new-slider">
             <div class="mobile-slider " style="max-width:300px">
-                <img class="newSlides" src="img/istock2.jpg" style="width:100%">
-                <img class="newSlides" src="img/istock3.jpg" style="width:100%">
-                <img class="newSlides" src="img/istock4.jpg" style="width:100%">
-                <img class="newSlides" src="img/istock5.jpg" style="width:100%">
-                <img class="newSlides" src="img/istock6.jpg" style="width:100%">
-                <img class="newSlides" src="img/istock7.jpg" style="width:100%">
+                <img class="newSlides" src="img/istock2-2.jpg" style="width:100%">
+                <img class="newSlides" src="img/istock3-2.jpg" style="width:100%">
+                <img class="newSlides" src="img/istock4-2.jpg" style="width:100%">
+                <img class="newSlides" src="img/istock5-2.jpg" style="width:100%">
+                <img class="newSlides" src="img/istock6-2.jpg" style="width:100%">
+                <img class="newSlides" src="img/istock7-2.jpg" style="width:100%">
             </div>
         </div>
 
@@ -146,7 +146,6 @@
     </div>
     <script>
         var myIndex = 0;
-        carousel();
 
         function carousel() {
             var i;
@@ -162,6 +161,8 @@
             setTimeout(carousel, 2000); // Change image every 2 seconds
         }
 
+        carousel();
+
         function myFunction() {
             var x = document.getElementById("myLinks");
             if (x.style.display === "block") {
@@ -170,36 +171,24 @@
                 x.style.display = "block";
             }
         }
-    </script>
-    <script>
-        var myIndex = 0;
-        carousel();
 
-        function carousel() {
+        var myIndex2 = 0;
+        carousel2();
+
+        function carousel2() {
             var i;
             var x = document.getElementsByClassName("newSlides");
             for (i = 0; i < x.length; i++) {
                 x[i].style.display = "none";
             }
-            myIndex++;
-            if (myIndex > x.length) {
-                myIndex = 1
+            myIndex2++;
+            if (myIndex2 > x.length) {
+                myIndex2 = 1
             }
-            x[myIndex - 1].style.display = "block";
-            setTimeout(carousel, 2000); // Change image every 2 seconds
-        }
-
-        function myFunction() {
-            var x = document.getElementById("myLinks");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
+            x[myIndex2 - 1].style.display = "block";
+            setTimeout(carousel2, 2000); // Change image every 2 seconds
         }
     </script>
-
-
 
 </body>
 
