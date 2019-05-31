@@ -63,7 +63,7 @@
         </div>
 
         <div class='section feature-1'>
-            <div class="w3-content w3-section" style="max-width:700px">
+            <div class="w3-content " style="max-width:700px">
                 <img class="mySlides" src="img/istock2.jpg" style="width:100%">
                 <img class="mySlides" src="img/istock3.jpg" style="width:100%">
                 <img class="mySlides" src="img/istock4.jpg" style="width:100%">
@@ -72,8 +72,18 @@
                 <img class="mySlides" src="img/istock7.jpg" style="width:100%">
             </div>
 
-
         </div>
+        <div class="section new-slider">
+            <div class="mobile-slider " style="max-width:300px">
+                <img class="newSlides" src="img/istock2.jpg" style="width:100%">
+                <img class="newSlides" src="img/istock3.jpg" style="width:100%">
+                <img class="newSlides" src="img/istock4.jpg" style="width:100%">
+                <img class="newSlides" src="img/istock5.jpg" style="width:100%">
+                <img class="newSlides" src="img/istock6.jpg" style="width:100%">
+                <img class="newSlides" src="img/istock7.jpg" style="width:100%">
+            </div>
+        </div>
+
 
 
 
@@ -141,6 +151,33 @@
         function carousel() {
             var i;
             var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("newSlides");
             for (i = 0; i < x.length; i++) {
                 x[i].style.display = "none";
             }
