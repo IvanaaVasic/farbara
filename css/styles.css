@@ -504,7 +504,7 @@
         margin-top: -150px
     }
     .second-title {
-        font-size: 30px;
+        font-size: 25px;
     }
     .linija {
         width: 200px;
@@ -572,6 +572,9 @@
         justify-content: center;
         align-content: center;
         height: 266px;
+    }
+    .adress {
+        text-align: left;
     }
 }
 
