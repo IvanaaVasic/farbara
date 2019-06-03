@@ -6,6 +6,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -13,12 +14,12 @@
         <div class='section  header-wrapper'>
 
             <div class="logo">
-                <a href="https://ivanaavasic.github.io/farbara/"> <img class="logoo" src="img/cetka.png">
+                <a href="index.html"> <img class="logoo" src="img/cetka.png">
                 </a>
             </div>
             <div class="menu-bar">
-                <div class="menu-item"><a href="https://ivanaavasic.github.io/farbara/">Home</a></div>
-                <div class="menu-item"><a href="https://ivanaavasic.github.io/farbara/gallery.html">Galerija</a></div>
+                <div class="menu-item"><a href="index.html">Home</a></div>
+                <div class="menu-item"><a href="gallery.html">Galerija</a></div>
                 <div class="last">
                     <a href="contact.html" class="myButton">Kontaktirajte nas</a>
                 </div>
@@ -26,11 +27,11 @@
             <div class="topnav">
                 <a href="#" class="active">Logo</a>
                 <div id="myLinks">
-                    <a href="https://ivanaavasic.github.io/farbara/">Home</a>
-                    <a href="https://ivanaavasic.github.io/farbara/gallery.html">Galerija</a>
+                    <a href="index.html">Home</a>
+                    <a href="gallery.html">Galerija</a>
                     <a href="#kontakt">Kontaktirajte nas</a>
                 </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <a href="javascript:void(0);" class="icon" onclick="toggleMenu(event)">
                     <i class="fa fa-bars"></i>
                 </a>
             </div>
@@ -84,10 +85,6 @@
                 <img class="newSlides" src="img/istock7-3.jpg" style="width:100%">
             </div>
         </div>
-
-
-
-
 
         <div class='section feature-3'>
             <div class="icon">
@@ -145,52 +142,9 @@
         </div>
         <div class="copywrite">Copyright © Ivana Vasic</div>
     </div>
-    <script>
-        var myIndex = 0;
 
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            myIndex++;
-            if (myIndex > x.length) {
-                myIndex = 1
-            }
-            x[myIndex - 1].style.display = "block";
-            setTimeout(carousel, 2000); // Change image every 2 seconds
-        }
-
-        carousel();
-
-        function myFunction() {
-            var x = document.getElementById("myLinks");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
-        }
-
-        var myIndex2 = 0;
-        carousel2();
-
-        function carousel2() {
-            var i;
-            var x = document.getElementsByClassName("newSlides");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            myIndex2++;
-            if (myIndex2 > x.length) {
-                myIndex2 = 1
-            }
-            x[myIndex2 - 1].style.display = "block";
-            setTimeout(carousel2, 2000); // Change image every 2 seconds
-        }
-    </script>
-
+    <script src="js/common.js"></script>
+    <script src="js/home.js"></script>
 </body>
 
 </html>
