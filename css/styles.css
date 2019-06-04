@@ -582,15 +582,6 @@
     .adress {
         text-align: left;
     }
-    .logo-footer {
-        width: 100%;
-        background-color: #525252;
-        display: flex;
-        justify-content: center;
-    }
-    .logo-footer img {
-        background-color: #525252;
-    }
 }
 
 @media only screen and (min-width: 450px) and (max-width: 800px) {
