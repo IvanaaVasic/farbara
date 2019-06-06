@@ -10,7 +10,7 @@
              flex-wrap: wrap;
              display: flex;
              flex-direction: row;
-             padding: 0 0 0 150px;
+             padding: 20px 0 20px 150px;
              justify-content: center;
              align-items: center;
          }
@@ -22,11 +22,43 @@
              height: 104px;
          }
          
+         .lines {
+             text-align: center;
+             width: 100%;
+             padding-left: 140px;
+             justify-content: center;
+             display: flex;
+         }
+         
+         .h-b {
+             font-family: sans-serif;
+             color: #525252;
+             font-size: 25px;
+         }
+         
+         .header-boje {
+             text-align: center;
+             width: 100%;
+             padding-left: 140px;
+         }
+         
+         .h_line {
+             width: 200px;
+             height: 1px;
+             background: black;
+         }
+         
          @media only screen and (max-width: 500px) {
              .proizvodi-layer {
-                 padding: 0 0 0 140px;
+                 padding: 10px 0 0 140px;
              }
              .proizvod-container {
                  margin: 10px 0;
+             }
+             .h-b {
+                 font-size: 25px;
+             }
+             .h_line {
+                 width: 150px;
              }
          }
