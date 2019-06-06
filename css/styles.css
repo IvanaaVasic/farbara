@@ -438,6 +438,12 @@
     align-content: center;
 }
 
+#myLinks {
+    display: flex;
+    flex-direction: column;
+    padding-top: 55px;
+}
+
 
 /* Mobile Styles */
 

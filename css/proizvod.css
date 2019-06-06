@@ -66,4 +66,10 @@
              .h_line {
                  width: 120px;
              }
+             #hb {
+                 font-size: 17px;
+             }
+             #pl-gks {
+                 padding: 10px 0 0 160px;
+             }
          }
