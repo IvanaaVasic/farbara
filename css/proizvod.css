@@ -1,14 +1,32 @@
-            .feature-5 {
-                position: relative;
-                top: 300px;
-            }
-            
-            .social-media {
-                position: relative;
-                top: 300px;
-            }
-            
-            .copywrite {
-                position: relative;
-                top: 300px;
-            }
+         .proizvod-container {
+             display: flex;
+             width: 200px;
+             height: 300px;
+             background-color: #F2F2F2;
+             margin: 10px 0 10px 50px;
+         }
+         
+         .proizvodi-layer {
+             flex-wrap: wrap;
+             display: flex;
+             flex-direction: row;
+             padding: 0 0 0 150px;
+             justify-content: center;
+             align-items: center;
+         }
+         
+         .img-boje {
+             display: flex;
+             margin: auto;
+             width: 180px;
+             height: 104px;
+         }
+         
+         @media only screen and (max-width: 500px) {
+             .w3-sidebar,
+             .w3-bar-block,
+             .w3-light-grey,
+             .w3-card {
+                 width: 140px;
+             }
+         }
