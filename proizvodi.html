@@ -37,9 +37,9 @@
             </div>
         </div>
         <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:160px; height: 300px;">
-            <a href="#" class="w3-bar-item w3-button">Link 1</a>
+            <a href="#" class="w3-bar-item w3-button">Boje</a>
             <button class="w3-button w3-block w3-left-align" onclick="myAccFunc()">
-            Accordion <i class="fa fa-caret-down"></i>
+            Fasade <i class="fa fa-caret-down"></i>
             </button>
             <div id="demoAcc" class="w3-hide w3-white w3-card">
                 <a href="#" class="w3-bar-item w3-button">Link</a>
@@ -48,15 +48,15 @@
 
             <div class="w3-dropdown-click">
                 <button class="w3-button" onclick="myDropFunc()">
-                Dropdown <i class="fa fa-caret-down"></i>
+                Izolacija <i class="fa fa-caret-down"></i>
               </button>
                 <div id="demoDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
                     <a href="#" class="w3-bar-item w3-button">Link</a>
                     <a href="#" class="w3-bar-item w3-button">Link</a>
                 </div>
             </div>
-            <a href="#" class="w3-bar-item w3-button">Link 2</a>
-            <a href="#" class="w3-bar-item w3-button">Link 3</a>
+            <a href="#" class="w3-bar-item w3-button">Alati</a>
+            <a href="#" class="w3-bar-item w3-button">Plastika</a>
         </div>
 
 
@@ -84,31 +84,7 @@
     </div>
 
     <script src="js/common.js"></script>
-    <script>
-        function myAccFunc() {
-            var x = document.getElementById("demoAcc");
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-                x.previousElementSibling.className += " w3-green";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
-                x.previousElementSibling.className =
-                    x.previousElementSibling.className.replace(" w3-green", "");
-            }
-        }
-
-        function myDropFunc() {
-            var x = document.getElementById("demoDrop");
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-                x.previousElementSibling.className += " w3-green";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
-                x.previousElementSibling.className =
-                    x.previousElementSibling.className.replace(" w3-green", "");
-            }
-        }
-    </script>
+    <script src="js/proizvodi.js"></script>
 
 
 </body>
