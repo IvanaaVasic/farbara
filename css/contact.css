@@ -48,3 +48,16 @@ input[type=submit]:hover {
     padding: 20px;
     font-family: sans-serif;
 }
+
+.contact-map {
+    margin: 0;
+    padding: 0 0 10px 0;
+    width: 100%;
+}
+
+.contact-map iframe {
+    margin-bottom: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+}
