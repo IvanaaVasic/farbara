@@ -92,13 +92,13 @@
 
 .move-btn.left {
     cursor: w-resize;
-    border-left: 1px solid grey;
+    border: 1px solid grey;
+    border-right: none;
 }
 
 .move-btn.right {
     cursor: e-resize;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
+    border: 1px solid grey;
 }
 
 .styles-container {
