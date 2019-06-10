@@ -83,7 +83,7 @@
     border: none;
     color: black;
     background-color: #F2F2F2;
-    padding: 5px;
+    padding: 15px;
 }
 
 .move-btn:first-child {
@@ -92,10 +92,13 @@
 
 .move-btn.left {
     cursor: w-resize;
+    border-left: 1px solid grey;
 }
 
 .move-btn.right {
     cursor: e-resize;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
 }
 
 .styles-container {
