@@ -444,6 +444,7 @@
 }
 
 
+
 /* Mobile Styles */
 
 @media only screen and (max-width: 400px) {
@@ -587,6 +588,7 @@
     .adress {
         text-align: left;
     }
+
 }
 
 @media only screen and (min-width: 450px) and (max-width: 800px) {
@@ -743,6 +745,7 @@
     .menu-bar {
         display: none;
     }
+    
 }
 
 
@@ -767,4 +770,5 @@
     .topnav {
         display: none;
     }
+    
 }
