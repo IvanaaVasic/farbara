@@ -148,7 +148,11 @@
     background-color: #B2D6FF;
     height: auto;
     justify-content: inherit;
-    align-items: inherit;
+    align-items: inherit; 
+}
+.responsive{
+    width: 100%;
+    height: 500px;
 }
 
 .naslov-dugme {
