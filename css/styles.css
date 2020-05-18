@@ -91,26 +91,27 @@
 .menu-bar {
   display: flex;
   align-items: center;
-  font-family: sans-serif;
+  font-family: lato;
   font-size: 16px;
   font-weight: bold;
 }
 
 .menu-item {
   margin: 0 10px;
-  border-bottom: 1px solid #525252;
   padding-right: 20px;
-  padding-bottom: 5px;
-  color: #525252;
+  color: black;
 }
 
 .menu-item a {
   text-decoration: none;
   color: #525252;
+  border-bottom: 1px solid #525252;
+  padding-bottom: 5px;
 }
 
 .menu-item a:hover {
   color: #cc4b57;
+  border-bottom: 2px solid #525252;
 }
 
 .last {
@@ -125,7 +126,7 @@
   cursor: pointer;
   color: #ffffff;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: normal;
   padding: 10px 20px;
   text-decoration: none;
@@ -146,14 +147,11 @@
 .main {
   background-image: url(painter3.jpg);
   min-height: 800px;
-
   position: relative;
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
   justify-content: inherit;
   align-items: inherit;
 }

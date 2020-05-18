@@ -1,125 +1,129 @@
 <html>
-
-<head>
+  <head>
     <title>Farbara Troter Srem</title>
-    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="favicon.ico">
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="stylesheet" type="text/css" href="css/proizvod.css" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<body>
-    <div class='page'>
-        <div class='section  header-wrapper'>
+  <body>
+    <div class="page">
+      <div class="section header-wrapper">
+        <div class="logo">
+          <a href="index.html"> <img class="logoo" src="img/logo@2x.svg" /></a>
+        </div>
+        <div class="menu-bar">
+          <div class="menu-item"><a href="index.html">HOME</a></div>
+          <div class="menu-item"><a href="gallery.html">GALERIJA</a></div>
+          <div class="menu-item"><a href="boje.html">PROIZVODI</a></div>
+          <div class="last">
+            <a href="contact.html" class="myButton">KONTAKTIRAJTE NAS</a>
+          </div>
+        </div>
+        <div class="topnav">
+          <a href="#" class="active">Logo</a>
+          <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Galerija</a>
+            <a href="boje.html">Proizvodi</a>
+            <a href="contact.html">Kontaktirajte nas</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="toggleMenu(event)">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
 
-            <div class="logo">
-                <a href="index.html"> <img class="logoo" src="img/logo@2x.svg"></a>
+      <div
+        class="w3-sidebar w3-bar-block w3-light-grey w3-card"
+        style="width: 140px; height: 300px;"
+      >
+        <a href="boje.html" class="w3-bar-item w3-button">Boje</a>
+        <a href="fasade.html" class="w3-bar-item w3-button">Fasade</a>
+        <a href="izolacije.html" class="w3-bar-item w3-button">Izolacija</a>
+        <a href="alati.html" class="w3-bar-item w3-button">Alati</a>
+        <a href="gks.html" class="w3-bar-item w3-button">Gips Karton Sistem</a>
+      </div>
+      <div class="lines">
+        <div class="h_line"></div>
+      </div>
+      <div class="header-boje">
+        <h2 class="h-b">ALATI</h2>
+      </div>
+      <div class="lines">
+        <div class="h_line"></div>
+      </div>
+
+      <div class="proizvodi-layer">
+        <div class="proizvod-container">
+          <img class="img-boje" src="img/mimont.png" />
+          <div class="products">
+            <h3 class="product-header">Mimont</h3>
+            <div class="product-description">
+              <p>Specijalizovani za proizvodnju alata u građevinarstvu.</p>
             </div>
-            <div class="menu-bar">
-                <div class="menu-item"><a href="index.html">Home</a></div>
-                <div class="menu-item"><a href="gallery.html">Galerija</a></div>
-                <div class="menu-item"><a href="boje.html">Proizvodi</a></div>
-                <div class="last">
-                    <a href="contact.html" class="myButton">Kontaktirajte nas</a>
-                </div>
+          </div>
+        </div>
+        <div class="proizvod-container">
+          <img class="img-boje" src="img/schuller.jpg" />
+          <div class="products">
+            <h3 class="product-header">Schuller</h3>
+            <div class="product-description">
+              <p>Kompletan asortiman alata za sve namene u građevinarstvu.</p>
             </div>
-            <div class="topnav">
-                <a href="#" class="active">Logo</a>
-                <div id="myLinks">
-                    <a href="index.html">Home</a>
-                    <a href="gallery.html">Galerija</a>
-                    <a href="boje.html">Proizvodi</a>
-                    <a href="contact.html">Kontaktirajte nas</a>
-                </div>
-                <a href="javascript:void(0);" class="icon" onclick="toggleMenu(event)">
-                    <i class="fa fa-bars"></i>
-                </a>
+          </div>
+        </div>
+        <div class="proizvod-container">
+          <img class="img-boje" src="img/praktik.jpg" />
+          <div class="products">
+            <h3 class="product-header">Praktik tool</h3>
+            <div class="product-description">
+              <p>
+                Spadaju u sam vrh hobi i poluprofesionalnih alata. Visok kvalitet za duži period
+                upotrebe, koristeći kvalitetne materijale i komponente.
+              </p>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:140px; height: 300px;">
-            <a href="boje.html" class="w3-bar-item w3-button">Boje</a>
-            <a href="fasade.html" class="w3-bar-item w3-button">Fasade</a>
-            <a href="izolacije.html" class="w3-bar-item w3-button">Izolacija</a>
-            <a href="alati.html" class="w3-bar-item w3-button">Alati</a>
-            <a href="gks.html" class="w3-bar-item w3-button">Gips Karton Sistem</a>
-
-        </div>
-        <div class="lines">
-
-            <div class="h_line"></div>
-        </div>
-        <div class="header-boje">
-            <h2 class="h-b">ALATI</h2>
-        </div>
-        <div class="lines">
-
-            <div class="h_line"></div>
-        </div>
-
-
-        <div class="proizvodi-layer">
-            <div class="proizvod-container">
-                <img class="img-boje" src="img/mimont.png">
-                <div class="products">
-                    <h3 class="product-header">Mimont</h3>
-                    <div class="product-description">
-                        <p>Specijalizovani za proizvodnju alata u građevinarstvu.</p>
-                    </div>
-                </div>
+      <div class="section feature-5">
+        <div class="icon-footer">
+          <div class="info-item">
+            <img class="icon-image" src="img/pins.png" />
+            <div class="adress">
+              Ugrinovačka 8,<br />
+              Dobanovci 11272
             </div>
-            <div class="proizvod-container">
-                <img class="img-boje" src="img/schuller.jpg">
-                <div class="products">
-                    <h3 class="product-header">Schuller</h3>
-                    <div class="product-description">
-                        <p>Kompletan asortiman alata za sve namene u građevinarstvu.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="proizvod-container">
-                <img class="img-boje" src="img/praktik.jpg">
-                <div class="products">
-                    <h3 class="product-header">Praktik tool</h3>
-                    <div class="product-description">
-                        <p>Spadaju u sam vrh hobi i poluprofesionalnih alata. Visok kvalitet za duži period upotrebe, koristeći kvalitetne materijale i komponente.</p>
-                    </div>
-                </div>
-            </div>
-
+          </div>
+          <div class="info-item">
+            <img class="icon-image" src="img/mail.png" />
+            <div class="mail">trotersrem@gmail.com</div>
+          </div>
+          <div class="info-item">
+            <img class="icon-image" src="img/phone.png" />
+            <div class="phone">061 5689798</div>
+          </div>
         </div>
-
-
-
-        <div class='section feature-5'>
-            <div class="icon-footer">
-                <div class="info-item">
-                    <img class="icon-image" src="img/pins.png">
-                    <div class="adress ">Ugrinovačka 8,<br> Dobanovci 11272</div>
-                </div>
-                <div class="info-item">
-                    <img class="icon-image" src="img/mail.png">
-                    <div class="mail ">trotersrem@gmail.com</div>
-                </div>
-                <div class="info-item">
-                    <img class="icon-image" src="img/phone.png">
-                    <div class="phone ">061 5689798</div>
-                </div>
-            </div>
-        </div>
-        <div class="social-media">
-            <div><img class="sm-icon" src="img/facebook.png"></div>
-            <div><img class="sm-icon" src="img/instagram.png"></div>
-        </div>
-        <div class="copywrite">Copyright © Ivana Vasic</div>
+      </div>
+      <div class="social-media">
+        <div><img class="sm-icon" src="img/facebook.png" /></div>
+        <div><img class="sm-icon" src="img/instagram.png" /></div>
+      </div>
+      <div class="copywrite">Copyright © TROTER SREM</div>
     </div>
 
     <script src="js/common.js"></script>
     <script src="js/proizvodi.js"></script>
-
-
-</body>
-
+  </body>
 </html>
