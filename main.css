@@ -8,7 +8,8 @@
   font-size: 18px;
   margin: 1em 0.8em;
   text-decoration: none;
-  font-family: arial;
+  font-family: lato;
+  font-weight: bold;
 }
 
 .button.type1 {

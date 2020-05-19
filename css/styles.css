@@ -178,7 +178,7 @@
   color: black;
   font-size: 40px;
   font-weight: normal;
-  font-family: sans-serif;
+  font-family: lato;
   text-align: center;
   width: 100%;
   background: rgba(255, 255, 255, 0.6);
@@ -200,7 +200,7 @@
   color: #eaeaea;
   font-size: 40px;
   font-weight: normal;
-  font-family: sans-serif;
+  font-family: lato;
   padding: 50px 0;
 }
 
@@ -211,9 +211,8 @@
   align-items: center;
   color: #eaeaea;
   font-weight: normal;
-  font-family: sans-serif;
+  font-family: lato;
   font-size: 19px;
-  font-family: arial;
   text-align: justify;
   margin-top: -150px;
 }
@@ -271,8 +270,9 @@
   width: 300px;
   flex-direction: column;
   padding: 50px 30px;
-  font-family: sans-serif;
+  font-family: lato;
   flex-wrap: wrap;
+  font-weight: bold;
 }
 
 .text-main-2 p {
@@ -281,8 +281,9 @@
   width: 300px;
   flex-direction: column;
   padding: 50px 30px;
-  font-family: sans-serif;
+  font-family: lato;
   flex-wrap: wrap;
+  font-weight: bold;
 }
 
 .feature-3 {
@@ -326,9 +327,9 @@
   text-align: center;
   color: black;
   font-size: 30px;
-  font-weight: normal;
+  font-weight: bold;
   position: relative;
-  font-family: sans-serif;
+  font-family: lato;
 }
 
 .direction {
@@ -357,7 +358,7 @@
   display: flex;
   align-items: center;
   flex: 1 1 0;
-  font-family: sans-serif;
+  font-family: lato;
   color: #d5d5d7;
   flex-direction: row;
   height: 200px;
@@ -387,7 +388,7 @@
 }
 
 .copywrite {
-  font-family: sans-serif;
+  font-family: lato;
   color: #d5d5d7;
   display: flex;
   flex-wrap: wrap;
@@ -451,7 +452,7 @@
     font-size: 14px;
     flex-direction: column;
     padding: 50px 0px;
-    font-family: sans-serif;
+    font-family: lato;
     flex-wrap: wrap;
   }
   .icon {
@@ -468,7 +469,7 @@
     align-items: center;
     color: #eaeaea;
     font-weight: normal;
-    font-family: sans-serif;
+    font-family: lato;
     font-size: 15px;
     font-family: arial;
     text-align: justify;
@@ -642,7 +643,7 @@
     font-size: 14px;
     flex-direction: column;
     padding: 50px 0px;
-    font-family: sans-serif;
+    font-family: lato;
     flex-wrap: wrap;
   }
   .icon-2 {
@@ -659,7 +660,7 @@
     font-size: 14px;
     flex-direction: column;
     padding: 50px 0px;
-    font-family: sans-serif;
+    font-family: lato;
     flex-wrap: wrap;
   }
   .icon {
