@@ -435,7 +435,7 @@
     font-size: 14px;
     flex-direction: column;
     padding: 50px 0px;
-    font-family: sans-serif;
+    font-family: lato;
     flex-wrap: wrap;
   }
   .icon-2 {
@@ -471,7 +471,7 @@
     font-weight: normal;
     font-family: lato;
     font-size: 15px;
-    font-family: arial;
+    font-family: lato;
     text-align: justify;
     margin-top: -150px;
   }
@@ -498,6 +498,9 @@
     font-weight: normal;
     padding: 16px 31px;
   }
+  .button {
+    font-weight: normal;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -509,6 +512,7 @@
   }
   .feature-2 h2 {
     font-size: 25px;
+    font-weight: normal;
   }
   .icon-footer {
     display: flex;
@@ -601,7 +605,7 @@
     font-weight: normal;
     font-family: sans-serif;
     font-size: 18px;
-    font-family: arial;
+    font-family: lato;
     text-align: justify;
     margin-top: -150px;
   }
@@ -615,6 +619,9 @@
   .text-main p {
     flex-direction: column;
     padding: 50px 0px;
+  }
+  .button {
+    font-weight: normal;
   }
 }
 
@@ -700,12 +707,15 @@
     font-weight: normal;
     font-family: sans-serif;
     font-size: 18px;
-    font-family: arial;
+    font-family: lato;
     text-align: justify;
     margin-top: -150px;
   }
   .menu-bar {
     display: none;
+  }
+  .button {
+    font-weight: normal;
   }
 }
 
